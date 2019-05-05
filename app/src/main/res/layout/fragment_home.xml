@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#383838"
+    android:orientation="horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+    <RelativeLayout
+        android:id="@+id/kesatu"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:background="@drawable/gradientbackground"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginTop="35dp"
+                android:id="@+id/profile_image"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/image_2"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Egga Dinarul Syam"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="21sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@id/ll"
+            android:id="@+id/lll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="ABOUT ME"
+                android:textSize="20dp"
+                android:textColor="#CCCC00"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:text="Sekarang saya adalah seorang yang sedang merantau ke kota dengan tujuan untuk mencari ilmu untuk bekal didunia kerja, saya orang yang cukup pendiam dan cukup aktif juga. Saya mulai menyukai dunia pemrograman sejak SMK, kala itu saya masuk sekolah jurusan RPL dan disanalah saya mulai menyukai yang namanya coding."/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/lll"
+            android:background="@drawable/gradientbackground"
+            android:layout_alignParentBottom="true"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="INTEREST"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:text="Hobby : Main basket, game, nonton video, baca komik dan meme."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:text="Makes : Daging, keripik, sayur."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:text="Mikes : Kopi, susu, teh."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:text="Interest : Membahagiakan orang tua, serta banyak orang."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:text="Cita-cita : Pengusaha, pengusaha, influencer."/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
